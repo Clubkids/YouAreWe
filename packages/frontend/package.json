@@ -1,0 +1,63 @@
+{
+  "name": "@YouAreWe/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@YouAreWe/shared": "*",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "^5.0.1",
+    "react-youtube": "^10.1.0",
+    "styled-components": "^6.1.14",
+    "uuid": "^9.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:safe": "node scripts/start-with-checks.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "react-scripts test --watchAll=false --ci --coverage",
+    "test:coverage": "react-scripts test --watchAll=false --coverage",
+    "test:unit": "react-scripts test --watchAll=false --testPathPattern=src/__tests__/unit",
+    "test:integration": "react-scripts test --watchAll=false --testPathPattern=src/__tests__/integration",
+    "test:e2e": "react-scripts test --watchAll=false --testPathPattern=src/__tests__/e2e",
+    "test:backend": "node scripts/check-backend.js",
+    "start:backend": "node scripts/start-backend.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(axios|uuid)/)"
+    ]
+  }
+}
