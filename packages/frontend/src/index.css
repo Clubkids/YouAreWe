@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Sportage Demo';
+    src: url('./fonts/Sportage-Demo.woff2') format('woff2'),
+         url('./fonts/Sportage-Demo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CSElijah';
+    src: url('./fonts/CSElijah-Regular.woff2') format('woff2'),
+         url('./fonts/CSElijah-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eightgon';
+    src: url('./fonts/Eightgon-Regular.woff2') format('woff2'),
+         url('./fonts/Eightgon-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eightgon';
+    src: url('./fonts/Eightgon-Italic.woff2') format('woff2'),
+         url('./fonts/Eightgon-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Narkisim';
+    src: url('./fonts/Narkisim.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EskapadeFraktur';
+    src: url('./fonts/EskapadeFraktur-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SaxMono';
+    src: url('./fonts/saxMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base body styles */
+body {
+    font-family: 'Narkisim', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'CSElijah', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Thread Page Styles */
+.thread-container {
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 1cm;
+    box-sizing: border-box;
+    color: white;
+}
+
+.thread-content {
+    background-color: #833ccf;
+    padding: 0.5cm;
+    border-radius: 5px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 1rem;
+    font-family: 'Eightgon', sans-serif;
+}
+
+.video-container {
+    margin-bottom: 1rem;
+}
+
+.post-header {
+    margin-bottom: 0.5cm;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-item {
+    margin: 0.5cm 0;
+    padding: 0.5cm;
+    background-color: #B4A7A5;
+    border-radius: 5px;
+}

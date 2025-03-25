@@ -1,0 +1,48 @@
+/* Global CSS styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font definitions */
+@font-face {
+  font-family: 'CSElijah';
+  /* Font files should be in the public directory */
+  src: local('CSElijah');
+}
+
+@font-face {
+  font-family: 'EskapadeFraktur';
+  /* Font files should be in the public directory */
+  src: local('EskapadeFraktur');
+}
+
+@font-face {
+  font-family: 'SaxMono';
+  /* Font files should be in the public directory */
+  src: local('SaxMono');
+}
+
+/* General classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Add application-wide styles below */

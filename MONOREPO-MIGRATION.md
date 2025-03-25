@@ -12,28 +12,12 @@
 - `npm test`: Run all tests in watch mode
 - `npm run test:ci`: Run tests in CI mode with coverage
 - `npm run test:backend`: Check backend server status
-- `npm run test:socket`: Launch WebSocket testing page
 
 ## API Endpoints
-- WebSocket connection: `http://170.64.231.250:4000` (or configured BACKEND_URL)
-- Socket.io path: `/socket.io`
+- Backend API: `http://170.64.231.250:4000` (or configured BACKEND_URL)
 - Health check: `/api/health`
 
 ## Configuration Requirements
-- Socket.io client version: 4.8.1 (must be compatible with backend)
-- WebSocket configuration:
-  ```js
-  {
-    reconnection: true,
-    reconnectionAttempts: 5,
-    reconnectionDelay: 1000,
-    reconnectionDelayMax: 5000,
-    timeout: 15000,
-    transports: ['websocket', 'polling'],
-    path: '/socket.io',
-    autoConnect: true
-  }
-  ```
 - Browser compatibility is configured in package.json browserslist
 
 ## Monorepo Integration Notes
